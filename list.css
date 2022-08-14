@@ -1,0 +1,61 @@
+body{
+    background:white;
+    margin:0;
+    padding:0;
+    min-height:100vh;
+    
+  }
+  .Container{
+    position:absolute;
+    top:20%;
+    left:20%;
+    border:1px solid black;
+    height:500px;
+    width:350px;
+    
+  }
+  .close{
+    right:0;
+    top:0;
+    width:50px;
+    height:50px;
+  }
+  .close::after{
+    display: inline-block;
+    position:absolute;
+    right:2%;
+    top:0;
+    content: 'x';
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+  }
+  .listContainer{
+    border:1px solid black;
+    width:250px;
+    height:350px;
+    position:absolute;
+    top:12%;
+    left:14.5%;
+  }
+  .searchDiv{
+    width: 248px;
+    height:20px;
+    border-bottom:2px solid ;
+  }
+  .feEmployee{
+    width: 248px;
+    height:310px;
+  }
+  .fe{
+    width: 248px;
+    height:20px;
+    border-bottom:1.4px solid ;
+    margin-top:20px;
+  }
+  .search{
+    outline: 0;
+    width:222px;
+    border-width: 0 0 0;
+    display:inline-block;
+  }
+  
