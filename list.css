@@ -9,7 +9,6 @@ body{
     position:absolute;
     top:20%;
     left:20%;
-    border:1px solid black;
     height:500px;
     width:350px;
     
@@ -30,7 +29,6 @@ body{
     font-family: Arial, sans-serif;
   }
   .listContainer{
-    border:1px solid black;
     width:250px;
     height:350px;
     position:absolute;
@@ -42,15 +40,22 @@ body{
     height:20px;
     border-bottom:2px solid ;
   }
-  .feEmployee{
+  .feEmployees{
     width: 248px;
     height:310px;
+    
   }
   .fe{
+    border:1px solid rgb(172, 172, 172);
     width: 248px;
-    height:20px;
-    border-bottom:1.4px solid ;
+    height:25px;
     margin-top:20px;
+    cursor: pointer;
+  }
+  .feName{
+    font-size:14px;
+    color:grey;
+    cursor: pointer;
   }
   .search{
     outline: 0;
@@ -58,4 +63,34 @@ body{
     border-width: 0 0 0;
     display:inline-block;
   }
+  .mark{
+    position:absolute;
+    right:3%;
+    cursor: pointer;
+  }
+  .fe:checked {
+    color: black;
+    border:2px solid pink;
+  }
+  #save{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(39,130,216,1) 50%, rgba(68,68,186,1) 87%);
+    border:0px;
+    border-radius: 10%;;
+    width:90px; height:35px;
+    margin:10px;
+    cursor: pointer;
+  }
+  #cancel{
+    color:grey;
+    border: 1px solid grey;
+    border-radius: 10%;;
+    width:90px; height:35px;
+    margin:10px;
+    cursor: pointer;
+  }
+  #btns{
+    margin-left: 10px;
+  }
+
   
